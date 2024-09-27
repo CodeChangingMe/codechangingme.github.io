@@ -12,24 +12,24 @@ permissions:
   id-token: write
 
 jobs:
-  build and deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20.x'  # 根据需要设置 Node.js 版本
-
     - name: Install dependencies
       run: npm install -g pnpm && pnpm install
-
     - name: Build and export
       run: pnpm run build
 
+    
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
