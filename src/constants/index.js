@@ -8,6 +8,7 @@ export const paths = [
 export const intro =  {
   contents: [
     { key: "gmail", name: "Gmail", link: "mailto:wuleicoding@gmail.com" },
+    { key: "notion", name: "Notion", link: "https://www.notion.so/3349706f5c3843a488d4744bae38d71d?pvs=4" },
     { key: "github", name: "Github", link: "https://github.com/CodeChangingMe" },
   ]
 }
