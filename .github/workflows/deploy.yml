@@ -3,10 +3,16 @@ name: Deploy Next.js to GitHub Pages
 on:
   push:
     branches:
-      - main  # 触发工作流的分支
+      - main  # Trigger the workflow every time you push to the `main` branch
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build:
+  build and deploy:
     runs-on: ubuntu-latest
 
     steps:
