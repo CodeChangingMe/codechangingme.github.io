@@ -5,13 +5,13 @@ export default function Intro() {
     <article className="flex flex-col mx-auto">
       <h1 className="text-2xl leading-loose">👋 Hi, here is</h1>
       <h3 className="mt-9 text-6xl font-semibold leading-snug">
-        Lei Wu's Blog.
+        Lei Wu&apos;s Blog.
       </h3>
       <h3 className="mb-9 text-6xl font-semibold leading-snug text-gray-300">
         I build things for the web.
       </h3>
       <p className="text-xl leading-loose">
-        I'm a Front-End Engineer from China.
+        I&apos;m a Front-End Engineer from China.
       </p>
       <p className="text-xl leading-loose">
         Previously, I worked in Ant Group and ByteDance.

@@ -17,8 +17,8 @@ export default function Skill({ skills }) {
     : content;
 
   const onMouseEvent = useCallback((target) => {
-    setContent(
-      content.map((item) =>
+    setContent((c) =>
+      c.map((item) =>
         target.name === item.name ? { ...item, show: !target.show } : item
       )
     );
