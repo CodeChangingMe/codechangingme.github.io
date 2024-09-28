@@ -7,7 +7,7 @@ export const work = {
       "title": "Senior FrontEnd Engineer",
       "date": "2021.06 ~ 2024.08",
       "content": [
-        "Worked on the mobile (hybrid) app, which is like ChatGPT, but it runs within the Alipay app.",
+        "Worked on the mobile (hybrid) app, which is like ChatGPT, but it runs within the Alipay app.Research and develop suitable TTS and ASR technical solutions for products.",
         "Utilized the WebRTC capabilities provided by native to develop a B2C audio and video calling system, using technologies such as React.js, state machines, and Immer. This solution has been reused by other teams."
       ]
     },
