@@ -3,7 +3,7 @@ export const work = {
   "content": [
     {
       "name": "Ant Group",
-      "link": "https://www.antgroup.com/",
+      "link": "https://www.antgroup.com/en",
       "title": "Senior FrontEnd Engineer",
       "date": "2021.06 ~ 2024.08",
       "content": [
